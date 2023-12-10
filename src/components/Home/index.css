@@ -1,0 +1,128 @@
+.container {
+  padding: 30px 200px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.carousel-container {
+  padding: 30px 0;
+}
+
+.restaurants-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-header-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 30px 20px 0 20px;
+  }
+  .carousel-container {
+    padding: 10px 0;
+  }
+}
+
+.restaurants-heading {
+  color: #183b56;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-heading {
+    color: #183b56;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+}
+
+.restaurants-description {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-description {
+    color: var(--light-blue-gray-500, #64748b);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+  }
+}
+
+.restaurants-sort-by-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.sort-text {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.loader-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.restaurants-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .restaurants-list {
+    padding: 0 20px;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+}

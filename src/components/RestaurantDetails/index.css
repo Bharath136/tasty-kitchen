@@ -1,0 +1,172 @@
+.restaurant-details-container {
+  width: 100%;
+}
+
+.restaurant-details-sub-container {
+  width: 100%;
+  background-color: #333;
+}
+
+.container {
+  padding: 0px 200px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.restaurant-details-image {
+  width: 445px;
+  height: 280px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+.restaurant-details-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.restaurant-details-content-container {
+  padding: 20px;
+}
+
+.restaurant-details-name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+}
+
+.restaurant-details-cuisine {
+  color: var(--light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.restaurant-details-location {
+  color: var(--light-base-white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.restaurant-details-rating-price-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.restaurant-details-icon-rating-container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.restaurant-details-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rating {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.restaurant-details-rating-count {
+  color: var(--light-blue-gray-200, #e2e8f0);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-details-image {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 133.981px;
+  }
+  .restaurant-details-name {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .restaurant-details-cuisine {
+    color: var(--light-base-white, #fff);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .restaurant-details-location {
+    color: var(--light-base-white, #fff);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .restaurant-details-icon-rating-container {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .restaurant-details-rating-count {
+    color: var(--light-blue-gray-200, #e2e8f0);
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .restaurant-details-item {
+    padding: 10px;
+  }
+}
+
+.food-items-list-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 30px 0;
+}

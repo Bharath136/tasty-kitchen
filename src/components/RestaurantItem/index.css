@@ -1,0 +1,71 @@
+.restaurant-item {
+  display: flex;
+  align-items: center;
+  width: 360px;
+}
+@media screen and (max-width: 768px) {
+  .restaurant-item {
+    width: 100%;
+  }
+}
+
+.restaurant-image {
+  width: 46%;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.restaurant-details-container {
+  padding: 20px;
+}
+
+.restaurant-heading {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.2px;
+  padding: 0;
+  margin: 0;
+}
+
+.restaurant-cuisine {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.restaurant-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star-icon {
+  color: #ffcc00;
+}
+
+.rating-value {
+  color: #1e293b;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.rating-text {
+  color: var(--light-blue-gray-500, #64748b);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

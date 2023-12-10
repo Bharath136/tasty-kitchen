@@ -1,0 +1,139 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  padding: 0px 200px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.header-items-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .header-items-container {
+    padding: 0 20px;
+    background-color: #f7fafa;
+  }
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo-image {
+  width: 53px;
+  height: 43px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 768px) {
+  .header-logo-image {
+    width: 39px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+}
+
+.header-logo-heading {
+  color: #f7931e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+@media screen and (max-width: 768px) {
+  .header-logo-heading {
+    color: #f7931e;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+  }
+}
+
+.icon {
+  display: none;
+}
+
+.nav-items-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .nav-items-container {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+}
+
+.nav-items-container-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-items-container-mobile {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+    padding: 0 20px;
+  }
+}
+
+.nav-items-container-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link {
+  font-feature-settings: 'clig' off, 'liga' off;
+  text-decoration: none;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+}
+
+.active {
+  color: #f7931e;
+}
+
+.logout-button {
+  color: var(--light-base-white, #fff);
+  background-color: #f7931e;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.356px;
+  height: 30px;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
